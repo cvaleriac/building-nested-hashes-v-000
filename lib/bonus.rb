@@ -8,7 +8,7 @@ def bonus
          {name: "Benvolio", age: "17", attitude: "worried"},
          {name: "Steven", age: "30", attitude: "confused"},
       ]
-      hero["status"] = "dead"
+
    },
    :capulet => {
       :patriarch => {name: "Lord Capulet", age: "50"},
@@ -18,11 +18,12 @@ def bonus
           {name: "Mercutio", age: "18", attitude: "hot-headed"},
           {name: "Nurse", age: "44", attitude: "worried"}
       ]
-      heroine["status"] = "dead"
+
    }
   }
 
-  #code your solution here:
+  epic_tragedy[:hero] = "dead"
+  epic_tragedy[:heroine] = "dead"
 
 
 
